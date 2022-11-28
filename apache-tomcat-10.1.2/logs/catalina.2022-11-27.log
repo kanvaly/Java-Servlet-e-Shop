@@ -1,0 +1,339 @@
+27-Nov-2022 19:59:43.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+27-Nov-2022 19:59:43.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+27-Nov-2022 19:59:43.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+27-Nov-2022 19:59:43.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 19:59:43.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 19:59:44.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+27-Nov-2022 19:59:44.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2022 19:59:44.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2022 19:59:44.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2022 19:59:44.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2022 19:59:44.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2022 19:59:44.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2022 19:59:44.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2022 19:59:44.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2022 19:59:44.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2022 19:59:44.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 19:59:44.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 19:59:44.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+27-Nov-2022 19:59:44.044 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2022 19:59:44.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Nov-2022 19:59:44.769 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1168] milliseconds
+27-Nov-2022 19:59:44.845 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2022 19:59:44.845 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+27-Nov-2022 19:59:44.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 19:59:45.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [566] ms
+27-Nov-2022 19:59:45.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 19:59:45.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [33] ms
+27-Nov-2022 19:59:45.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 19:59:46.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [596] ms
+27-Nov-2022 19:59:46.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 19:59:46.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [83] ms
+27-Nov-2022 19:59:46.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 19:59:46.196 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [53] ms
+27-Nov-2022 19:59:46.202 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Nov-2022 19:59:46.231 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1461] milliseconds
+27-Nov-2022 20:43:47.008 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+27-Nov-2022 20:43:47.009 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+27-Nov-2022 20:43:47.223 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+27-Nov-2022 20:43:47.231 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+27-Nov-2022 20:43:47.232 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+27-Nov-2022 20:43:47.710 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+27-Nov-2022 20:43:47.710 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+27-Nov-2022 20:43:47.710 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+27-Nov-2022 20:43:47.761 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+27-Nov-2022 20:43:47.762 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+27-Nov-2022 20:43:47.763 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+27-Nov-2022 20:43:47.822 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+27-Nov-2022 20:43:47.825 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+27-Nov-2022 20:43:47.826 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+27-Nov-2022 20:43:47.873 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+27-Nov-2022 20:47:27.924 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+27-Nov-2022 20:47:27.954 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+27-Nov-2022 20:47:28.010 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+27-Nov-2022 20:47:28.055 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+27-Nov-2022 20:47:28.072 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+27-Nov-2022 20:47:28.104 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 20:47:28.259 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [155] ms
+27-Nov-2022 20:47:28.260 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 20:47:28.351 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [85] ms
+27-Nov-2022 20:47:28.351 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 20:47:29.275 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [924] ms
+27-Nov-2022 20:47:29.276 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 20:47:29.379 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [102] ms
+27-Nov-2022 20:47:29.379 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 20:47:29.465 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [85] ms
+27-Nov-2022 20:48:09.502 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+27-Nov-2022 20:48:09.506 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+27-Nov-2022 20:48:09.519 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+27-Nov-2022 20:48:09.535 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+27-Nov-2022 20:48:09.539 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+27-Nov-2022 20:48:09.543 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 20:48:09.575 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [31] ms
+27-Nov-2022 20:48:09.575 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 20:48:09.603 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [28] ms
+27-Nov-2022 20:48:09.603 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 20:48:10.088 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [484] ms
+27-Nov-2022 20:48:10.088 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 20:48:10.183 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [95] ms
+27-Nov-2022 20:48:10.185 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 20:48:10.251 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [66] ms
+27-Nov-2022 20:48:27.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+27-Nov-2022 20:48:27.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+27-Nov-2022 20:48:27.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+27-Nov-2022 20:48:27.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Nov-2022 20:48:27.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+27-Nov-2022 20:48:27.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2022 20:48:27.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+27-Nov-2022 20:48:27.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+27-Nov-2022 20:48:27.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Nov-2022 20:48:27.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:48:27.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:48:27.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+27-Nov-2022 20:48:27.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2022 20:48:27.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2022 20:48:27.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2022 20:48:27.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2022 20:48:27.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2022 20:48:27.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2022 20:48:27.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2022 20:48:27.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2022 20:48:27.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2022 20:48:27.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:48:27.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:48:27.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+27-Nov-2022 20:48:27.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2022 20:48:27.758 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:48:27.803 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1207] milliseconds
+27-Nov-2022 20:48:27.872 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2022 20:48:27.872 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+27-Nov-2022 20:48:27.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 20:48:28.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [716] ms
+27-Nov-2022 20:48:28.605 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 20:48:28.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [63] ms
+27-Nov-2022 20:48:28.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 20:48:29.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [724] ms
+27-Nov-2022 20:48:29.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 20:48:29.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [61] ms
+27-Nov-2022 20:48:29.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 20:48:29.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [57] ms
+27-Nov-2022 20:48:29.516 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:48:29.553 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1749] milliseconds
+27-Nov-2022 20:48:29.563 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:576)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Nov-2022 20:48:29.564 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:48:29.573 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2022 20:48:29.615 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:48:29.630 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:49:55.107 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Nov-2022 20:49:55.107 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Nov-2022 20:49:55.116 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2022 20:49:55.134 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Nov-2022 20:49:55.153 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Nov-2022 20:51:01.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+27-Nov-2022 20:51:01.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+27-Nov-2022 20:51:01.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+27-Nov-2022 20:51:01.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Nov-2022 20:51:01.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+27-Nov-2022 20:51:01.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2022 20:51:01.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+27-Nov-2022 20:51:01.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+27-Nov-2022 20:51:01.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Nov-2022 20:51:01.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:51:01.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:51:01.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+27-Nov-2022 20:51:01.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2022 20:51:01.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2022 20:51:01.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2022 20:51:01.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2022 20:51:01.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2022 20:51:01.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2022 20:51:01.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2022 20:51:01.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2022 20:51:01.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2022 20:51:01.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:51:01.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 20:51:01.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+27-Nov-2022 20:51:01.506 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2022 20:51:02.438 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:51:02.550 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1564] milliseconds
+27-Nov-2022 20:51:02.740 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2022 20:51:02.742 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+27-Nov-2022 20:51:02.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 20:51:03.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [772] ms
+27-Nov-2022 20:51:03.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 20:51:03.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [144] ms
+27-Nov-2022 20:51:03.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 20:51:04.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [938] ms
+27-Nov-2022 20:51:04.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 20:51:04.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [144] ms
+27-Nov-2022 20:51:04.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 20:51:04.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [105] ms
+27-Nov-2022 20:51:04.938 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 20:51:05.026 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2474] milliseconds
+27-Nov-2022 21:00:54.472 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 21:00:54.480 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2022 21:00:54.532 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 21:00:54.557 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 21:04:52.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+27-Nov-2022 21:04:52.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+27-Nov-2022 21:04:52.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+27-Nov-2022 21:04:52.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Nov-2022 21:04:52.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+27-Nov-2022 21:04:52.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2022 21:04:52.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+27-Nov-2022 21:04:52.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+27-Nov-2022 21:04:52.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Nov-2022 21:04:52.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 21:04:52.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 21:04:52.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+27-Nov-2022 21:04:52.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2022 21:04:52.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2022 21:04:52.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2022 21:04:52.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2022 21:04:52.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2022 21:04:52.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2022 21:04:52.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2022 21:04:52.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2022 21:04:52.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2022 21:04:52.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 21:04:52.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 21:04:52.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+27-Nov-2022 21:04:52.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2022 21:04:53.682 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 21:04:53.769 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1676] milliseconds
+27-Nov-2022 21:04:53.900 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2022 21:04:53.904 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+27-Nov-2022 21:04:53.947 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 21:04:54.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [850] ms
+27-Nov-2022 21:04:54.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/hello]
+27-Nov-2022 21:04:54.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/hello] has finished in [118] ms
+27-Nov-2022 21:04:54.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 21:04:55.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [93] ms
+27-Nov-2022 21:04:55.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 21:04:56.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [997] ms
+27-Nov-2022 21:04:56.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 21:04:56.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [73] ms
+27-Nov-2022 21:04:56.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 21:04:56.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [92] ms
+27-Nov-2022 21:04:56.209 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 21:04:56.283 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2513] milliseconds
+27-Nov-2022 22:00:38.787 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:00:38.810 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2022 22:00:39.016 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:00:39.036 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:11:52.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+27-Nov-2022 22:11:52.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+27-Nov-2022 22:11:52.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+27-Nov-2022 22:11:52.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Nov-2022 22:11:52.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+27-Nov-2022 22:11:52.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2022 22:11:52.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+27-Nov-2022 22:11:52.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+27-Nov-2022 22:11:52.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Nov-2022 22:11:52.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:11:52.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:11:52.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+27-Nov-2022 22:11:52.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2022 22:11:52.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2022 22:11:52.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2022 22:11:52.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2022 22:11:52.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2022 22:11:52.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2022 22:11:52.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2022 22:11:52.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2022 22:11:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2022 22:11:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:11:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:11:52.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+27-Nov-2022 22:11:52.579 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2022 22:11:53.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:11:54.032 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2034] milliseconds
+27-Nov-2022 22:11:54.208 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2022 22:11:54.208 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+27-Nov-2022 22:11:54.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 22:11:55.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [1,542] ms
+27-Nov-2022 22:11:55.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/hello]
+27-Nov-2022 22:11:56.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/hello] has finished in [233] ms
+27-Nov-2022 22:11:56.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 22:11:56.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [114] ms
+27-Nov-2022 22:11:56.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 22:11:57.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [1,200] ms
+27-Nov-2022 22:11:57.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 22:11:57.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [127] ms
+27-Nov-2022 22:11:57.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 22:11:57.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [78] ms
+27-Nov-2022 22:11:57.597 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:11:57.715 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3677] milliseconds
+27-Nov-2022 22:14:07.091 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:14:07.101 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2022 22:14:07.184 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:14:07.198 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:18:36.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+27-Nov-2022 22:18:36.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+27-Nov-2022 22:18:36.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+27-Nov-2022 22:18:36.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Nov-2022 22:18:36.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+27-Nov-2022 22:18:36.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2022 22:18:36.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+27-Nov-2022 22:18:36.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+27-Nov-2022 22:18:36.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Nov-2022 22:18:36.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:18:36.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:18:36.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+27-Nov-2022 22:18:36.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2022 22:18:36.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2022 22:18:36.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2022 22:18:36.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:18:36.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+27-Nov-2022 22:18:36.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+27-Nov-2022 22:18:36.167 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2022 22:18:37.250 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:18:37.355 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1967] milliseconds
+27-Nov-2022 22:18:37.547 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2022 22:18:37.547 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+27-Nov-2022 22:18:37.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+27-Nov-2022 22:18:38.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [1,320] ms
+27-Nov-2022 22:18:38.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/hello]
+27-Nov-2022 22:18:39.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/hello] has finished in [182] ms
+27-Nov-2022 22:18:39.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+27-Nov-2022 22:18:39.196 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [91] ms
+27-Nov-2022 22:18:39.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+27-Nov-2022 22:18:40.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [828] ms
+27-Nov-2022 22:18:40.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+27-Nov-2022 22:18:40.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [125] ms
+27-Nov-2022 22:18:40.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+27-Nov-2022 22:18:40.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [97] ms
+27-Nov-2022 22:18:40.266 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 22:18:40.308 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2952] milliseconds
+27-Nov-2022 23:42:18.054 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 23:42:18.075 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2022 23:42:18.203 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Nov-2022 23:42:18.237 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]

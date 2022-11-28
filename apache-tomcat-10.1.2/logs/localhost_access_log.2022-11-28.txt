@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [28/Nov/2022:00:04:14 +0000] "GET /hello/querybook.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Nov/2022:00:08:03 +0000] "GET /hello/query?author=Kanvaly+Bamba HTTP/1.1" 200 301
+0:0:0:0:0:0:0:1 - - [28/Nov/2022:00:12:18 +0000] "GET /hello/querybook.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Nov/2022:00:12:21 +0000] "GET /hello/query?author=Kanvaly+Bamba HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [28/Nov/2022:00:13:51 +0000] "GET /hello/query?author=Kanvaly+Bamba HTTP/1.1" 200 371
