@@ -1,0 +1,211 @@
+29-Nov-2022 00:30:18.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+29-Nov-2022 00:30:18.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+29-Nov-2022 00:30:18.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+29-Nov-2022 00:30:18.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Nov-2022 00:30:18.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+29-Nov-2022 00:30:18.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 00:30:18.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+29-Nov-2022 00:30:18.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+29-Nov-2022 00:30:18.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+29-Nov-2022 00:30:18.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 00:30:18.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 00:30:18.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+29-Nov-2022 00:30:18.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 00:30:18.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 00:30:18.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 00:30:18.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 00:30:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Nov-2022 00:30:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Nov-2022 00:30:18.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Nov-2022 00:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Nov-2022 00:30:18.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2022 00:30:18.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 00:30:18.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 00:30:18.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+29-Nov-2022 00:30:18.220 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 00:30:19.542 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 00:30:19.720 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2130] milliseconds
+29-Nov-2022 00:30:19.911 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2022 00:30:19.917 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+29-Nov-2022 00:30:19.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+29-Nov-2022 00:30:21.682 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 00:30:21.931 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [1,978] ms
+29-Nov-2022 00:30:21.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop]
+29-Nov-2022 00:30:22.547 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 00:30:22.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop] has finished in [647] ms
+29-Nov-2022 00:30:22.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+29-Nov-2022 00:30:23.131 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 00:30:23.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [558] ms
+29-Nov-2022 00:30:23.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+29-Nov-2022 00:30:24.218 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 00:30:24.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [1,229] ms
+29-Nov-2022 00:30:24.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+29-Nov-2022 00:30:25.041 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 00:30:25.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [663] ms
+29-Nov-2022 00:30:25.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+29-Nov-2022 00:30:25.784 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 00:30:25.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [746] ms
+29-Nov-2022 00:30:25.811 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 00:30:25.920 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6196] milliseconds
+29-Nov-2022 10:23:25.457 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 10:23:25.473 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Nov-2022 10:23:25.666 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 10:23:25.691 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:29:07.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+29-Nov-2022 11:29:07.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+29-Nov-2022 11:29:07.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+29-Nov-2022 11:29:07.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Nov-2022 11:29:07.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+29-Nov-2022 11:29:07.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 11:29:07.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+29-Nov-2022 11:29:07.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+29-Nov-2022 11:29:07.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+29-Nov-2022 11:29:07.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:29:07.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:29:08.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+29-Nov-2022 11:29:08.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 11:29:08.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 11:29:08.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 11:29:08.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 11:29:08.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Nov-2022 11:29:08.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Nov-2022 11:29:08.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Nov-2022 11:29:08.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Nov-2022 11:29:08.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2022 11:29:08.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:29:08.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:29:08.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+29-Nov-2022 11:29:08.086 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 11:29:09.188 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:29:09.338 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1938] milliseconds
+29-Nov-2022 11:29:09.548 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2022 11:29:09.551 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+29-Nov-2022 11:29:09.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+29-Nov-2022 11:29:11.609 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:29:11.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [2,308] ms
+29-Nov-2022 11:29:11.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop]
+29-Nov-2022 11:29:12.561 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:29:12.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop] has finished in [664] ms
+29-Nov-2022 11:29:12.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+29-Nov-2022 11:29:13.212 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:29:13.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [683] ms
+29-Nov-2022 11:29:13.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+29-Nov-2022 11:29:14.350 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:29:14.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [1,305] ms
+29-Nov-2022 11:29:14.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+29-Nov-2022 11:29:15.460 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:29:15.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [896] ms
+29-Nov-2022 11:29:15.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+29-Nov-2022 11:29:16.127 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:29:16.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [652] ms
+29-Nov-2022 11:29:16.142 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:29:16.195 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6848] milliseconds
+29-Nov-2022 11:38:33.922 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:38:33.929 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Nov-2022 11:38:34.056 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:38:34.076 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:38:53.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+29-Nov-2022 11:38:53.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+29-Nov-2022 11:38:53.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+29-Nov-2022 11:38:53.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Nov-2022 11:38:53.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+29-Nov-2022 11:38:53.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 11:38:53.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+29-Nov-2022 11:38:53.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+29-Nov-2022 11:38:53.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+29-Nov-2022 11:38:53.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:38:53.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:38:53.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+29-Nov-2022 11:38:53.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 11:38:53.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 11:38:53.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 11:38:53.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 11:38:53.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Nov-2022 11:38:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Nov-2022 11:38:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Nov-2022 11:38:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Nov-2022 11:38:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2022 11:38:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:38:53.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:38:53.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+29-Nov-2022 11:38:53.126 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 11:38:54.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:38:54.338 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1695] milliseconds
+29-Nov-2022 11:38:54.541 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2022 11:38:54.541 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+29-Nov-2022 11:38:54.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+29-Nov-2022 11:38:56.466 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:38:56.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [2,059] ms
+29-Nov-2022 11:38:56.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop]
+29-Nov-2022 11:38:57.409 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:38:57.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop] has finished in [789] ms
+29-Nov-2022 11:38:57.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+29-Nov-2022 11:38:58.053 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:38:58.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [638] ms
+29-Nov-2022 11:38:58.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+29-Nov-2022 11:38:59.059 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:38:59.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [1,077] ms
+29-Nov-2022 11:38:59.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+29-Nov-2022 11:38:59.783 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:38:59.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [640] ms
+29-Nov-2022 11:38:59.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+29-Nov-2022 11:39:00.542 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:39:00.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [761] ms
+29-Nov-2022 11:39:00.567 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:39:00.648 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6309] milliseconds
+29-Nov-2022 11:40:40.703 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+29-Nov-2022 11:40:41.055 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:40:41.063 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+29-Nov-2022 11:47:31.858 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:47:31.862 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Nov-2022 11:47:32.000 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:47:32.018 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:47:38.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+29-Nov-2022 11:47:38.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+29-Nov-2022 11:47:38.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+29-Nov-2022 11:47:38.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Nov-2022 11:47:38.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+29-Nov-2022 11:47:38.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Nov-2022 11:47:38.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+29-Nov-2022 11:47:38.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+29-Nov-2022 11:47:38.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+29-Nov-2022 11:47:38.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:47:38.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:47:38.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+29-Nov-2022 11:47:38.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Nov-2022 11:47:38.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Nov-2022 11:47:38.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Nov-2022 11:47:38.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Nov-2022 11:47:38.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Nov-2022 11:47:39.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Nov-2022 11:47:39.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Nov-2022 11:47:39.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Nov-2022 11:47:39.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Nov-2022 11:47:39.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:47:39.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+29-Nov-2022 11:47:39.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+29-Nov-2022 11:47:39.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2022 11:47:40.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:47:40.137 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1597] milliseconds
+29-Nov-2022 11:47:40.294 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2022 11:47:40.294 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+29-Nov-2022 11:47:40.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+29-Nov-2022 11:47:42.180 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:47:42.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [2,212] ms
+29-Nov-2022 11:47:42.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop]
+29-Nov-2022 11:47:43.393 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:47:43.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop] has finished in [880] ms
+29-Nov-2022 11:47:43.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+29-Nov-2022 11:47:44.069 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:47:44.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [632] ms
+29-Nov-2022 11:47:44.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+29-Nov-2022 11:47:45.038 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:47:45.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [1,142] ms
+29-Nov-2022 11:47:45.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+29-Nov-2022 11:47:46.156 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:47:46.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [943] ms
+29-Nov-2022 11:47:46.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+29-Nov-2022 11:47:46.922 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Nov-2022 11:47:46.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [754] ms
+29-Nov-2022 11:47:46.944 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+29-Nov-2022 11:47:47.032 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6894] milliseconds

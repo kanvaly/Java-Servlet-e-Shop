@@ -1,0 +1,170 @@
+04-Dec-2022 18:16:02.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+04-Dec-2022 18:16:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+04-Dec-2022 18:16:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+04-Dec-2022 18:16:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2022 18:16:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+04-Dec-2022 18:16:02.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2022 18:16:02.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+04-Dec-2022 18:16:02.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+04-Dec-2022 18:16:02.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+04-Dec-2022 18:16:02.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:16:02.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:16:02.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+04-Dec-2022 18:16:02.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2022 18:16:02.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Dec-2022 18:16:02.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Dec-2022 18:16:02.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Dec-2022 18:16:02.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2022 18:16:02.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2022 18:16:02.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2022 18:16:02.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2022 18:16:02.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2022 18:16:02.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:16:02.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:16:02.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+04-Dec-2022 18:16:02.386 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2022 18:16:03.547 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:16:03.647 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1883] milliseconds
+04-Dec-2022 18:16:03.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2022 18:16:03.780 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+04-Dec-2022 18:16:03.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+04-Dec-2022 18:16:05.246 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:16:05.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [1,615] ms
+04-Dec-2022 18:16:05.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop]
+04-Dec-2022 18:16:06.000 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:16:06.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop] has finished in [589] ms
+04-Dec-2022 18:16:06.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+04-Dec-2022 18:16:06.644 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:16:06.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [615] ms
+04-Dec-2022 18:16:06.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+04-Dec-2022 18:16:07.450 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:16:07.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [950] ms
+04-Dec-2022 18:16:07.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+04-Dec-2022 18:16:08.086 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:16:08.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [507] ms
+04-Dec-2022 18:16:08.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+04-Dec-2022 18:16:08.551 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:16:08.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [451] ms
+04-Dec-2022 18:16:08.576 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:16:08.681 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5018] milliseconds
+04-Dec-2022 18:16:54.734 SEVERE [http-nio-9999-exec-1] mypkg.EntryServlet.doGet null
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+		at mypkg.EntryServlet.doGet(EntryServlet.java:36)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+		... 30 more
+	Caused by: java.net.ConnectException: Connection refused
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 33 more
+04-Dec-2022 18:55:06.622 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:55:06.630 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2022 18:55:06.776 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:55:06.794 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:55:17.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.2
+04-Dec-2022 18:55:17.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 15:47:04 UTC
+04-Dec-2022 18:55:17.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.2.0
+04-Dec-2022 18:55:17.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2022 18:55:17.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-53-generic
+04-Dec-2022 18:55:17.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2022 18:55:17.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-17.0.5+8
+04-Dec-2022 18:55:17.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.5+8
+04-Dec-2022 18:55:17.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+04-Dec-2022 18:55:17.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:55:17.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:55:17.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/conf/logging.properties
+04-Dec-2022 18:55:17.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2022 18:55:17.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Dec-2022 18:55:17.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Dec-2022 18:55:17.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Dec-2022 18:55:17.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2022 18:55:17.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2022 18:55:17.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2022 18:55:17.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2022 18:55:17.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2022 18:55:17.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:55:17.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2
+04-Dec-2022 18:55:17.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/temp
+04-Dec-2022 18:55:17.906 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2022 18:55:19.061 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:55:19.196 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1786] milliseconds
+04-Dec-2022 18:55:19.328 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2022 18:55:19.328 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.2]
+04-Dec-2022 18:55:19.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT]
+04-Dec-2022 18:55:20.423 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:55:20.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ROOT] has finished in [1,272] ms
+04-Dec-2022 18:55:20.630 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop]
+04-Dec-2022 18:55:21.082 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:55:21.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/ebookshop] has finished in [480] ms
+04-Dec-2022 18:55:21.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs]
+04-Dec-2022 18:55:21.565 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:55:21.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/docs] has finished in [458] ms
+04-Dec-2022 18:55:21.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples]
+04-Dec-2022 18:55:22.346 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:55:22.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/examples] has finished in [931] ms
+04-Dec-2022 18:55:22.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager]
+04-Dec-2022 18:55:22.938 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:55:22.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/manager] has finished in [447] ms
+04-Dec-2022 18:55:22.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager]
+04-Dec-2022 18:55:23.394 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2022 18:55:23.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kanvaly/repos/Java-Servlet-e-Shop/apache-tomcat-10.1.2/webapps/host-manager] has finished in [440] ms
+04-Dec-2022 18:55:23.405 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:55:23.503 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4298] milliseconds
+04-Dec-2022 18:59:18.534 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:59:18.540 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2022 18:59:18.659 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+04-Dec-2022 18:59:18.695 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
