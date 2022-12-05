@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:00:29 +0000] "GET /ebookshop/start HTTP/1.1" 200 70
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:01:23 +0000] "GET /ebookshop/start HTTP/1.1" 200 657
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:30:23 +0000] "GET /ebookshop/start HTTP/1.1" 200 657
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:30:25 +0000] "GET /ebookshop/search?author=&search= HTTP/1.1" 200 225
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:30:32 +0000] "GET /ebookshop/start HTTP/1.1" 200 657
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:30:48 +0000] "GET /ebookshop/search?author=Kanvaly+Bamba&search=Kumar HTTP/1.1" 200 2077
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:31:25 +0000] "GET /ebookshop/order?id=1002&qty1002=80&qty1004=1&id=3001&qty3001=1&id=3002&qty3002=1&id=3003&qty3003=50&id=7001&qty7001=1&qty7002=1&cust_name=aluy&cust_email=alu%40host&cust_phone=12345678 HTTP/1.1" 200 983
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:37:05 +0000] "GET /ebookshop/start HTTP/1.1" 200 604
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:37:10 +0000] "GET /ebookshop/search?author=Kumar&search= HTTP/1.1" 200 1684
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:37:27 +0000] "GET /ebookshop/order?id=1004&qty1004=lp&qty3001=1&qty3002=1&qty7001=1&qty7002=1&cust_name=aluy&cust_email=alu%40host&cust_phone=12345678 HTTP/1.1" 500 424
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:44:44 +0000] "GET /ebookshop/order?id=1004&qty1004=lp&qty3001=1&qty3002=1&qty7001=1&qty7002=1&cust_name=aluy&cust_email=alu%40host&cust_phone=12345678 HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:44:57 +0000] "GET /ebookshop/start HTTP/1.1" 200 604
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:44:58 +0000] "GET /ebookshop/start HTTP/1.1" 200 604
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:45:06 +0000] "GET /ebookshop/search?author=Kumar&search= HTTP/1.1" 200 1684
+0:0:0:0:0:0:0:1 - - [05/Dec/2022:19:45:25 +0000] "GET /ebookshop/order?id=1004&qty1004=100&qty3001=1&qty3002=1&qty7001=1&qty7002=1&cust_name=aluy&cust_email=alu%40host&cust_phone=12345678 HTTP/1.1" 200 200

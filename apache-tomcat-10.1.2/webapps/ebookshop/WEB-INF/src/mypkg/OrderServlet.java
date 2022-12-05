@@ -6,7 +6,7 @@ import java.util.logging.*;
 import jakarta.servlet.*;             // Tomcat 10
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
-
+import myutil.InputFilter;
 
 @WebServlet("/order")
  
@@ -39,13 +39,18 @@ public class OrderServlet extends HttpServlet {
          out.println("<br><h2 align='center'>EBS - Order Confirmation</h2><br>");
  
          // Retrieve and process request parameters: id(s), cust_name, cust_email, cust_phone
+         // InputFilter.htmlFilter method let filter user-entered strings to avoid potential attacks
+
          String[] ids = request.getParameterValues("id");  // Possibly more than one values
          String custName = request.getParameter("cust_name");
-         boolean hasCustName = custName != null && ((custName = custName.trim()).length() > 0);
+         
+         boolean hasCustName = custName != null && ((custName = InputFilter.htmlFilter(custName.trim())).length() > 0);
+
          String custEmail = request.getParameter("cust_email").trim();
-         boolean hasCustEmail = custEmail != null && ((custEmail = custEmail.trim()).length() > 0);
+         boolean hasCustEmail = custEmail != null && ((custEmail = InputFilter.htmlFilter(custEmail.trim())).length() > 0);
+
          String custPhone = request.getParameter("cust_phone").trim();
-         boolean hasCustPhone = custPhone != null && ((custPhone = custPhone.trim()).length() > 0);
+         boolean hasCustPhone = custPhone != null && ((custPhone = InputFilter.htmlFilter(custPhone.trim())).length() > 0);
  
          // Validate inputs
          if (ids == null || ids.length == 0) {
@@ -54,23 +59,34 @@ public class OrderServlet extends HttpServlet {
             out.println("<h3>Please Enter Your Name!</h3>");
          } else if (!hasCustEmail || (custEmail.indexOf('@') == -1)) {
             out.println("<h3>Please Enter Your e-mail (user@host)!</h3>");
-         } else if (!hasCustPhone || (custPhone.length() != 8)) {
+         } else if (!hasCustPhone || !InputFilter.isValidPhone(custPhone)) {
             out.println("<h3>Please Enter an 8-digit Phone Number!</h3>");
          } else {
+            // We shall build our output in a buffer, so that it will not be interrupted
+            //  by error messages.
+            StringBuilder outBuf = new StringBuilder();
+
             // Display the name, email and phone (arranged in a table)
-            out.println("<table align='center'>");
-            out.println("<tr><td>Customer Name:</td><td>" + custName + "</td></tr>");
-            out.println("<tr><td>Customer Email:</td><td>" + custEmail + "</td></tr>");
-            out.println("<tr><td>Customer Phone Number:</td><td>" + custPhone + "</td></tr></table>");
+            outBuf.append("<table align='center'>");
+            outBuf.append("<tr><td>Customer Name:</td><td>").append(custName).append("</td></tr>");
+            outBuf.append("<tr><td>Customer Email:</td><td>").append(custEmail).append("</td></tr>");
+            outBuf.append("<tr><td>Customer Phone Number:</td><td>").append(custPhone).append("</td></tr></table>");
  
             conn = DriverManager.getConnection(databaseURL, username, password);
             stmt = conn.createStatement();
+
+            /* We shall manage our transaction (because multiple SQL statements issued)
+            A commit is issued only if the entire transaction (i.e., all books) can be met.
+             Partial update will be roll-backed.
+            */
+            conn.setAutoCommit(false);
  
             // Print the book(s) ordered in a table
-            out.println("<br />");
-            out.println("<table align='center' border='1' cellpadding='6'>");
-            out.println("<tr><th>AUTHOR</th><th>TITLE</th><th>PRICE</th><th>QTY</th></tr>");
- 
+            outBuf.append("<br />");
+            outBuf.append("<table align='center' border='1' cellpadding='6'>");
+            outBuf.append("<tr><th>AUTHOR</th><th>TITLE</th><th>PRICE</th><th>QTY</th></tr>");
+            
+            boolean error = false;
             float totalPrice = 0f;
             for (String id : ids) {
                sqlStr = "SELECT * FROM books WHERE id = " + id;
@@ -79,42 +95,73 @@ public class OrderServlet extends HttpServlet {
  
                // Expect only one row in ResultSet
                rset.next();
-               
+
+               int qtyAvailable = rset.getInt("qty");
                String title = rset.getString("title");
                String author = rset.getString("author");
                float price = rset.getFloat("price");
  
-               int qtyOrdered = Integer.parseInt(request.getParameter("qty" + id));
-               sqlStr = "UPDATE books SET qty = qty - " + qtyOrdered + " WHERE id = " + id;
-               //System.out.println(sqlStr);  // for debugging
-               stmt.executeUpdate(sqlStr);
+               /* Validate quantity ordered */
+
+               String qtyOrderedStr = request.getParameter("qty" + id);
+
+                    // make sure qtyOrdered is a positive integer
+                    int qtyOrdered = InputFilter.parsePositiveInt(qtyOrderedStr);
+                    if (qtyOrdered == 0) {
+                        out.println("<h3>Please Enter a valid quantity for \"" + title + "\"!</h3>");
+                        error = true;
+                        break;
+
+                    // make sure there are sufficient books available    
+                     } else if (qtyOrdered > qtyAvailable) {
+                        out.println("<h3>There are insufficient copies of \"" + title + "\" available!</h3>");
+                        error = true;
+                        break;
+                     } else {
+                        // Okay, update the books table and insert an order record    
+                        sqlStr = "UPDATE books SET qty = qty - " + qtyOrdered + " WHERE id = " + id;
+                        //System.out.println(sqlStr);  // for debugging
+                        stmt.executeUpdate(sqlStr);
+            
+                        sqlStr = "INSERT INTO order_records values ("
+                                + id + ", " + qtyOrdered + ", '" + custName + "', '"
+                                + custEmail + "', '" + custPhone + "')";
+                        //System.out.println(sqlStr);  // for debugging
+                        stmt.executeUpdate(sqlStr);
  
-               sqlStr = "INSERT INTO order_records values ("
-                       + id + ", " + qtyOrdered + ", '" + custName + "', '"
-                       + custEmail + "', '" + custPhone + "')";
-               //System.out.println(sqlStr);  // for debugging
-               stmt.executeUpdate(sqlStr);
- 
-               // Display this book ordered
-               out.println("<tr>");
-               out.println("<td>" + author + "</td>");
-               out.println("<td>" + title + "</td>");
-               out.println("<td>" + price + "</td>");
-               out.println("<td>" + qtyOrdered + "</td></tr>");
-               totalPrice += price * qtyOrdered;
+                        // Display this book ordered
+                        outBuf.append("<tr>");
+                        outBuf.append("<td>").append(author).append("</td>");
+                        outBuf.append("<td>").append(title).append("</td>");
+                        outBuf.append("<td>").append(price).append("</td>");
+                        outBuf.append("<td>").append(qtyOrdered).append("</td></tr>");
+                        totalPrice += price * qtyOrdered;
+                    }
             }
- 
-            out.println("<tr><td colspan='4' align='right'>Total Price: $");
-            out.printf("%.2f</td></tr>", totalPrice);
-            out.println("</table>");
- 
-            out.println("<h3 align='center'>Thank you.</h3>");
-            out.println("<p><a href='start'>Back to Select Menu</a></p>");
+
+            if (error) {
+                conn.rollback();
+             } else {
+                // No error, print the output from the StringBuilder.
+                out.println(outBuf.toString());
+                out.println("<tr><td colspan='4' align='right'>Total Price: $");
+                out.printf("%.2f</td></tr>", totalPrice);
+                out.println("</table>");
+  
+                out.println("<h3>Thank you.</h3>");
+                out.println("<p><a href='start'>Back to Select Menu</a></p>");
+                // Commit for ALL the books ordered.
+                conn.commit();
+             }
          }
          out.println("</body></html>");
       } catch (SQLException ex) {
-         out.println("<h3>Service not available. Please try again later!</h3></body></html>");
-         Logger.getLogger(OrderServlet.class.getName()).log(Level.SEVERE, null, ex);
+            try {
+                conn.rollback();  // rollback the updates
+                out.println("<h3>Service not available. Please try again later!</h3></body></html>");
+            } catch (SQLException ex1) { }
+            Logger.getLogger(OrderServlet.class.getName()).log(Level.SEVERE, null, ex);
+
       } finally {
          out.close();
          try {

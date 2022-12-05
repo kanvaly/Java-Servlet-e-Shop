@@ -5,7 +5,8 @@ import java.sql.*;
 import java.util.logging.*;
 import jakarta.servlet.*;             // Tomcat 10
 import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.*;        // Tomcat 10
+import jakarta.servlet.http.*;        
+import myutil.InputFilter;
 
 
 @WebServlet("/search")   // Configure the request URL for this servlet (Tomcat 7/Servlet 3.0 upwards)
@@ -36,9 +37,9 @@ public class QueryServlet extends HttpServlet {
       try {
          // Retrieve and process request parameters: "author" and "search"
          String author = request.getParameter("author");
-         boolean hasAuthorParam = author != null && !author.equals("Select...");
+         boolean hasAuthorParam = author != null && !author.equals("Select...") && ((author = InputFilter.htmlFilter(author.trim())).length() > 0);
          String searchWord = request.getParameter("search");
-         boolean hasSearchParam = searchWord != null && ((searchWord = searchWord.trim()).length() > 0);
+         boolean hasSearchParam = searchWord != null && ((searchWord = InputFilter.htmlFilter(searchWord.trim())).length() > 0);
  
          out.println("<html><head><title>Query Results</title></head><body>");
          out.println("<br><h2 align='center'>EBS - Query Results</h2><br>");

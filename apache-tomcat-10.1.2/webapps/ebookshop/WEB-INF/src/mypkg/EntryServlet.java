@@ -36,6 +36,7 @@ public class EntryServlet extends HttpServlet {
          conn = DriverManager.getConnection(databaseURL, username, password);
          stmt = conn.createStatement();
          String sqlStr = "SELECT DISTINCT author FROM books WHERE qty > 0";
+         
          // System.out.println(sqlStr);  // for debugging
          ResultSet rset = stmt.executeQuery(sqlStr);
  
